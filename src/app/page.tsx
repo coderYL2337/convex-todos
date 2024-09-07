@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { NewToDoForm } from "../_components/new-todo-form"
+import { NewToDoForm } from "./_components/new-todo-form"
 
 type ToDoItem = {
   title: string
