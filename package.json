@@ -9,9 +9,10 @@
     "lint": "next lint"
   },
   "engines": {
-  "node": ">=14.x"
-},
+    "node": ">=14.x"
+  },
   "dependencies": {
+    "@clerk/nextjs": "^5.4.1",
     "convex": "^1.15.0",
     "next": "14.2.8",
     "react": "^18",

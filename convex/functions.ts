@@ -9,7 +9,7 @@ export const listTodos = query(
 export const createTodo = mutation({
     args: {
         title: v.string(),
-        description: v.string(),
+        description: v.string()
     },
     handler: async (ctx, args) => {
         return await ctx.db.insert("todos", {
