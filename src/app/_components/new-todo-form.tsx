@@ -14,8 +14,9 @@ export function NewToDoForm(){
     setDescription("");
   }
   return (
-    <form onSubmit={handleSubmit}>
+     <form onSubmit={handleSubmit}>
         <div className="flex flex-col gap-2">
+        <h2 className="text-lg font-semibold">Create task manually</h2>
             <label className="text-sm font-semibold" htmlFor="title">Title</label>
             <input 
              className="p-1 border rounded"
