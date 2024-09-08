@@ -40,6 +40,7 @@ import { NewToDoForm } from "./_components/new-todo-form";
 import { ToDoList } from "./_components/to-do-list";
 import { SignInButton,SignUpButton, UserButton } from "@clerk/nextjs";
 import { GenerateTodosForm } from "./_components/generate-todos-form";
+import { DonationButton } from "./_components/donation-button";
 
 export default function Home() {
   return (
@@ -54,6 +55,7 @@ export default function Home() {
           <ToDoList />
           <GenerateTodosForm />
           <NewToDoForm />
+          <DonationButton />
         </div>
       </Authenticated>
       <Unauthenticated>

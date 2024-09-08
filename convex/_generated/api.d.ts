@@ -16,6 +16,7 @@ import type {
 import type * as actions from "../actions.js";
 import type * as functions from "../functions.js";
 import type * as helper from "../helper.js";
+import type * as stripe from "../stripe.js";
 
 /**
  * A utility for referencing Convex functions in your app's API.
@@ -29,6 +30,7 @@ declare const fullApi: ApiFromModules<{
   actions: typeof actions;
   functions: typeof functions;
   helper: typeof helper;
+  stripe: typeof stripe;
 }>;
 export declare const api: FilterApi<
   typeof fullApi,
