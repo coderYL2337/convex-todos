@@ -4,7 +4,7 @@ After logging in, users can break down a large goal into smaller tasks with the 
 
 Next.js and React used for this project. Clerk is used for user authentication. Convex is used for backend and database. Stripe is used for payment. 
 
-Copyrights: Yan Lu
+Copyrights: Yan Lu 2024
 -------------------------------------------
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
