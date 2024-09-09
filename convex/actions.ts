@@ -19,7 +19,7 @@ export const generateTodos = action({
             messages: [
                 {
                     role: "system",
-                    content: "generate 3 to-dos based on the given prompt. Please include a title and description.Please return a json object in the following format: { todos: [{ title: string, description: string }] } "
+                    content: "generate to-dos based on the given prompt. Please include a title and description.Please return a json object in the following format: { todos: [{ title: string, description: string }] } "
                 },
                 {
                     role: "user",
